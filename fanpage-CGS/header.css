@@ -1,0 +1,42 @@
+header{
+    background-color: rgb(35, 37, 47);
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+    font: 30px 'Acme', sans-serif;;
+    align-items: center;
+}
+
+header nav a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    transition: .5s all ease;
+}
+
+header nav li{
+    list-style: none;
+    float: right;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    float: left;
+    text-decoration: none;
+    font: 30px 'Cinzel', serif;;
+    padding: 0px 20px;
+}
+
+.logo:hover{
+    color: rgb(0, 0, 0);
+    transition: .5s all ease;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}

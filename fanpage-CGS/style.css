@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: white;
+}
+
+body{
+    animation-name: uno;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes uno {
+    0%{background: rgb(37, 37, 37);}
+    25%{background: rgb(0, 0, 0);}
+    50%{background: rgb(37, 37, 37);}
+    75%{background: rgb(0, 0, 0);}
+    90%{background: rgb(27, 27, 27);}
+    100%{background: rgb(34, 34, 34);}
+}

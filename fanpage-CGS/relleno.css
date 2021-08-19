@@ -1,0 +1,14 @@
+.text1{
+    align-items: center;
+    font-size: 25px;
+    display: inline-block;
+}
+
+/* *{
+    border: 1px solid rgb(255, 255, 255);
+} */
+
+
+p{
+    color: transparent;
+}
